@@ -8,6 +8,9 @@ img = Image.open(img_path)
 
 print(type(img))
 
+
+
+
 tensor_trans = transforms.ToTensor()
 
 img_tensor = tensor_trans(img)
